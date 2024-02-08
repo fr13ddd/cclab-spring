@@ -2,13 +2,58 @@ body {
     font-family: 'Reenie Beanie', cursive;
     color: white;
     font-size: 25px;
-    margin: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
     padding: 0;
     background-color: black; 
 }
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
 h1 {
+    margin-top: 50px;
     font-size: 60px;
 }
 h2 {
     font-size: 40px;
+    margin-left: 70px;
+}
+a {
+    color: red;
+}
+#introduction{
+    font-family: 'Single Day', cursive;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.poemheading{
+    text-align: center;
+    font-size: 45px;
+}
+.poemwriter{
+    text-align: center;
+    font-family: 'Single Day', cursive;
+    font-size: 20px;
+    color: lightgray;
+}
+#headingforp2345{
+    margin-top: 70px;
+}
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: rgb(255, 220, 105);
+}
+
+a:hover {
+    color: lightblue;
+}
+
+a:active {
+    color: lightseagreen;
 }
